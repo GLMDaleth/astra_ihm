@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/astra_ihm_frontend/ros/build/mqtt_client/libmqtt_client_lib.so" "TARGETS" "mqtt_client_lib" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

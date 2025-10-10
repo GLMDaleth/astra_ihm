@@ -1,0 +1,1 @@
+/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_cmake/srv/ros2/NewMqtt2RosBridge_Request.msg

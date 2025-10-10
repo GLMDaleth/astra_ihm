@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mqtt_client_interfaces/srv/NewMqtt2RosBridge_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mqtt_client_interfaces/srv/NewMqtt2RosBridge_Response",
+      "hash_string": "RIHS01_28ee445130c9692e8eaa3e7e921210e66df47aa90d84b4be5f46ad6f16b84dbc"
+    }
+  ]
+}

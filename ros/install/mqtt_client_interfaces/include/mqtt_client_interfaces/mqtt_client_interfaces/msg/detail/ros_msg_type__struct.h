@@ -1,0 +1,1 @@
+/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_generator_c/mqtt_client_interfaces/msg/detail/ros_msg_type__struct.h

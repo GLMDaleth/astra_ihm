@@ -1,0 +1,9 @@
+{
+  "package_name": "mqtt_client_interfaces",
+  "non_idl_tuples": [
+    "/home/user/astra_ihm_frontend/ros/src/mqtt_client/mqtt_client_interfaces:msg/RosMsgType.msg",
+    "/home/user/astra_ihm_frontend/ros/src/mqtt_client/mqtt_client_interfaces:srv/IsConnected.srv",
+    "/home/user/astra_ihm_frontend/ros/src/mqtt_client/mqtt_client_interfaces:srv/ros2/NewMqtt2RosBridge.srv",
+    "/home/user/astra_ihm_frontend/ros/src/mqtt_client/mqtt_client_interfaces:srv/ros2/NewRos2MqttBridge.srv"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mqtt_client_interfaces/srv/NewMqtt2RosBridge_Request",
+      "fields": [
+        {
+          "name": "ros_topic",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "mqtt_topic",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "primitive",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "False"
+        },
+        {
+          "name": "mqtt_qos",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "0"
+        },
+        {
+          "name": "ros_queue_size",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "1"
+        },
+        {
+          "name": "ros_latched",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "False"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mqtt_client_interfaces/srv/NewMqtt2RosBridge_Request",
+      "hash_string": "RIHS01_1450cdc352ae6eda7c94ab7475132a17b010d296ed21796422f1c3bc4091635f"
+    }
+  ]
+}

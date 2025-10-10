@@ -1,0 +1,15 @@
+{
+  "package_name": "mqtt_client_interfaces",
+  "output_dir": "/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_generator_type_description/mqtt_client_interfaces",
+  "idl_tuples": [
+    "/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_adapter/mqtt_client_interfaces:msg/RosMsgType.idl",
+    "/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_adapter/mqtt_client_interfaces:srv/IsConnected.idl",
+    "/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_adapter/mqtt_client_interfaces:srv/NewMqtt2RosBridge.idl",
+    "/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_adapter/mqtt_client_interfaces:srv/NewRos2MqttBridge.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

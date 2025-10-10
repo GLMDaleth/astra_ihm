@@ -1,0 +1,1 @@
+/home/user/astra_ihm_frontend/ros/build/astra_pcc/ament_cmake_core/astra_pccConfig.cmake

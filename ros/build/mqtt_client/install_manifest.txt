@@ -1,0 +1,6 @@
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/launch/standalone.launch.ros2.xml
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.yaml
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.fixed-type-and-qos.yaml
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.primitive-fixed-type-and-qos.yaml
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.primitive.yaml
+/home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.aws.yaml

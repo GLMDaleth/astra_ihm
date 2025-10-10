@@ -1,0 +1,1 @@
+/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_generator_cpp/mqtt_client_interfaces/srv/detail/new_ros2_mqtt_bridge__struct.hpp

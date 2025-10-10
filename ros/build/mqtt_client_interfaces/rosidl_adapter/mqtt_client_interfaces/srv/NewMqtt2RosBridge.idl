@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mqtt_client_interfaces/srv/ros2/NewMqtt2RosBridge.srv
+// generated code does not contain a copyright notice
+
+
+module mqtt_client_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "This service is used to dynamically register new MQTT -> ROS mappings.")
+    struct NewMqtt2RosBridge_Request {
+      string ros_topic;
+
+      string mqtt_topic;
+
+      @default (value=FALSE)
+      boolean primitive;
+
+      @default (value=0)
+      uint8 mqtt_qos;
+
+      @default (value=1)
+      uint32 ros_queue_size;
+
+      @default (value=FALSE)
+      boolean ros_latched;
+    };
+    struct NewMqtt2RosBridge_Response {
+      boolean success;
+    };
+  };
+};

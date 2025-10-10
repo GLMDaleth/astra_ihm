@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found mqtt_client_interfaces: 2.3.0 (/home/user/astra_ihm_frontend/ros/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 21.0.8 (/opt/ros/iron/share/rclcpp_components/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/astra_ihm_frontend/ros/build/mqtt_client
+[ 25%] [32mBuilding CXX object CMakeFiles/mqtt_client_lib.dir/src/MqttClient.ros2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mqtt_client.dir/rclcpp_components/node_main_mqtt_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable mqtt_client[0m
+[ 75%] Built target mqtt_client
+[100%] [32m[1mLinking CXX shared library libmqtt_client_lib.so[0m
+[100%] Built target mqtt_client_lib
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/lib/mqtt_client/mqtt_client
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/lib/libmqtt_client_lib.so
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/ament_index/resource_index/package_run_dependencies/mqtt_client
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/ament_index/resource_index/parent_prefix_path/mqtt_client
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/environment/path.sh
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/environment/path.dsv
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/local_setup.bash
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/local_setup.sh
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/local_setup.zsh
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/local_setup.dsv
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/package.dsv
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/ament_index/resource_index/packages/mqtt_client
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/ament_index/resource_index/rclcpp_components/mqtt_client
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/cmake/mqtt_clientConfig.cmake
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/cmake/mqtt_clientConfig-version.cmake
+-- Symlinking: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/package.xml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/launch
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/launch/standalone.launch.ros2.xml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.yaml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.fixed-type-and-qos.yaml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.primitive-fixed-type-and-qos.yaml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.primitive.yaml
+-- Installing: /home/user/astra_ihm_frontend/ros/install/mqtt_client/share/mqtt_client/config/params.ros2.aws.yaml

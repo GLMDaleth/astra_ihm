@@ -1,0 +1,1 @@
+/home/user/astra_ihm_frontend/ros/build/mqtt_client_interfaces/rosidl_typesupport_introspection_c/mqtt_client_interfaces/srv/detail/new_ros2_mqtt_bridge__rosidl_typesupport_introspection_c.h

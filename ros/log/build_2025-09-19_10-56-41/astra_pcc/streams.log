@@ -1,0 +1,61 @@
+[0.009s] Invoking command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake /home/user/astra_ihm_frontend/ros/src/astra_pcc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/astra_ihm_frontend/ros/install/astra_pcc
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.482s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.565s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.621s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.681s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.898s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.028s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.060s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.279s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[1.307s] -- Found rclpy: 4.1.7 (/opt/ros/iron/share/rclpy/cmake)
+[1.310s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.393s] -- Added test 'lint_cmake' to check CMake code style
+[1.394s] -- Added test 'xmllint' to check XML markup files
+[1.396s] -- Configuring done
+[1.399s] -- Generating done
+[1.400s] -- Build files have been written to: /home/user/astra_ihm_frontend/ros/build/astra_pcc
+[1.408s] Invoked command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake /home/user/astra_ihm_frontend/ros/src/astra_pcc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/astra_ihm_frontend/ros/install/astra_pcc
+[1.410s] Invoking command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake --build /home/user/astra_ihm_frontend/ros/build/astra_pcc -- -j20 -l20
+[1.452s] Invoked command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake --build /home/user/astra_ihm_frontend/ros/build/astra_pcc -- -j20 -l20
+[1.489s] Invoking command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake --install /home/user/astra_ihm_frontend/ros/build/astra_pcc
+[1.498s] -- Install configuration: ""
+[1.498s] -- Execute custom install script
+[1.498s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc//launch/joy_teleop.launch.xml
+[1.506s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc//launch/main.launch.xml
+[1.516s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc//launch/standalone_mqtt.launch.ros2.xml
+[1.526s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc//config/joy.yaml
+[1.534s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc//config/params_mqtt.ros2.yaml
+[1.542s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/ament_index/resource_index/package_run_dependencies/astra_pcc
+[1.550s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/ament_index/resource_index/parent_prefix_path/astra_pcc
+[1.561s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/environment/ament_prefix_path.sh
+[1.568s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/environment/ament_prefix_path.dsv
+[1.578s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/environment/path.sh
+[1.584s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/environment/path.dsv
+[1.593s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/local_setup.bash
+[1.601s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/local_setup.sh
+[1.609s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/local_setup.zsh
+[1.616s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/local_setup.dsv
+[1.625s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/package.dsv
+[1.633s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/ament_index/resource_index/packages/astra_pcc
+[1.642s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/cmake/astra_pccConfig.cmake
+[1.651s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/cmake/astra_pccConfig-version.cmake
+[1.659s] -- Symlinking: /home/user/astra_ihm_frontend/ros/install/astra_pcc/share/astra_pcc/package.xml
+[1.669s] Invoked command in '/home/user/astra_ihm_frontend/ros/build/astra_pcc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/segway_ws/install/segway_waypoint_follower:/home/user/astra/ros2/install/semantic_sensor:/home/user/astra/ros2/install/elevation_mapping_cupy:/home/user/astra/ros2/install/astra_service:/home/user/astra/ros2/install/astra_rqt_plugin:/home/user/elevation_mapping_cupy/install/semantic_sensor:/opt/ros/iron /usr/bin/cmake --install /home/user/astra_ihm_frontend/ros/build/astra_pcc
