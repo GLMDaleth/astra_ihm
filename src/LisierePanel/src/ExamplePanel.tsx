@@ -68,29 +68,52 @@ function EdgeDetectionPanel({ context }: { context: PanelExtensionContext }) {
   const [rightTracking, setRightTracking] = useState(false);
   const [etat, setEtat] = useState("..................");
   const [renderDone, setRenderDone] = useState<(() => void) | undefined>();
-  const checkParam = async (node: string, setFn: (val: boolean) => void) => {
-    try {
-      if(!context.callService)
-      {
-        return;
-      }
-      const result = (await context.callService(
-        `${node}/get_parameters`,
-        { names: ["lisiere_detected"] }
-      )) as GetParametersResponse;
-
-      const val = result?.values?.[0];
-      setFn(val?.bool_value ?? false);
-    } catch (err) {
-      console.error(`Failed to get param from ${node}:`, err);
-      setFn(false);
+const checkParam = async (
+  node: string,
+  paramName: string,
+  setFn: (val: boolean) => void
+) => {
+  try {
+    if (!context.callService) {
+      return;
     }
-  };
+
+    const result = (await context.callService(
+      `${node}/get_parameters`,
+      { names: [paramName] }
+    )) as GetParametersResponse;
+
+    const val = result?.values?.[0];
+    setFn(val?.bool_value ?? false);
+  } catch (err) {
+    console.error(`Failed to get param "${paramName}" from ${node}:`, err);
+    setFn(false);
+  }
+};
+
+  // const checkParam = async (node: string, setFn: (val: boolean) => void) => {
+  //   try {
+  //     if(!context.callService)
+  //     {
+  //       return;
+  //     }
+  //     const result = (await context.callService(
+  //       `${node}/get_parameters`,
+  //       { names: ["lisiere_detected"] }
+  //     )) as GetParametersResponse;
+
+  //     const val = result?.values?.[0];
+  //     setFn(val?.bool_value ?? false);
+  //   } catch (err) {
+  //     console.error(`Failed to get param from ${node}:`, err);
+  //     setFn(false);
+  //   }
+  // };
 
   useEffect(() => {
     const interval = setInterval(() => {
-      checkParam("/LEFT/detection_lisiere_node", setLeftDetected);
-      checkParam("/RIGHT/detection_lisiere_node", setRightDetected);
+    checkParam("/detection_lisiere_node", "LEFT_detection", setLeftDetected);
+    checkParam("/detection_lisiere_node", "RIGHT_detection", setRightDetected);
     }, 2000);
     return () => clearInterval(interval);
   }, []);
