@@ -3,12 +3,12 @@ import { createRoot } from "react-dom/client";
 import { useRef, useState, useEffect, useLayoutEffect } from "react";
 
 const scenarioList = [
-  "scenario_1_ep1",
-  "scenario_1_ep2",
-  "scenario_1_ep3",
+  "scenario_1_epreuve_1",
+  "scenario_1_epreuve_2",
+  "scenario_1_epreuve_3",
   "scenario_2",
-  "scenario_3_ep1",
-  "scenario_3_ep2",
+  "scenario_3_epreuve_1",
+  "scenario_3_epreuve_2",
   "scenario_mixte",
 ];
 

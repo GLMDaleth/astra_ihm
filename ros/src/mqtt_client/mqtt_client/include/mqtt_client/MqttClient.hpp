@@ -199,7 +199,7 @@ class MqttClient : public rclcpp::Node,
      const Ros2MqttInterface& ros2mqtt) const;
 
   /**
-   * @brief Get the candiate topic endpoints for subscription matching
+   * @brief Get the candidate topic endpoints for subscription matching
    *
    * @param ros2mqtt the ROS to MQTT interface spec
    *
@@ -423,6 +423,7 @@ class MqttClient : public rclcpp::Node,
       int version;                           ///< TLS version (https://github.com/eclipse/paho.mqtt.cpp/blob/master/src/mqtt/ssl_options.h#L305)
       bool verify;                           ///< Verify the client should conduct
                                              ///< post-connect checks
+      bool server_cert_auth;                 ///< whether to verify the server certificate
       std::vector<std::string> alpn_protos;  ///< list of ALPN protocols
     } tls;                                   ///< SSL/TLS-related variables
   };
